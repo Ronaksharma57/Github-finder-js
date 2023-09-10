@@ -1,0 +1,143 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 900;
+    font-family: SamsungOne, arial, sans-serif;;
+ 
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.header{
+    margin-bottom: 20px;
+}
+
+.header .logo{
+    font-size: 2rem;
+    font-weight:bold
+}
+
+.search-form{
+    gap: 10px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    background-color: #ededed;
+    margin-bottom: 20px;
+}
+
+.search-form .fa-search{
+    font-size:1.3rem;
+}
+
+.search-form .keyword{
+    width: 100%;
+    padding: 8px;
+    background-color: transparent;
+}
+
+.search-form .btn{
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: .4s all ease;
+}
+
+.search-form .btn:hover{
+    transform: scale(0.95);
+}
+
+.user-card{
+    background-color: #ededed;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.container{
+    width: 80%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-flex.between{
+    justify-content: space-between;
+}
+
+.d-flex.center{
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.header .dark-toggle{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.user-card .head{
+    margin-bottom: 20px;
+}
+
+.user-card .had .sub{
+    flex-direction: column;
+    -webkit-box-direction: normal;
+}
+
+.user-card .head .photo{
+    width: 80px;
+    border-radius: 50%;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.user-card .head .name{
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.user-card .head .joined{
+    margin-top: 8px;
+    font-size: .9rem;
+}
+
+.user-card .details .card{
+    margin-top: 18px;
+    padding: 22px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: .9rem;
+}
+
+.user-card .details .links{
+    flex-direction: row;
+    -webkit-box-direction: normal;
+}
+
+.user-card .details .links li{
+    margin-bottom: 12px;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.fw-bold{
+    font-weight: bold;
+}
+
+.w-100{
+    width: 100%;
+}
